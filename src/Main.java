@@ -28,9 +28,7 @@ public class Main {
     }
 
     public static int totalCalculatedRisk() {
-        calculateCrimeRisk();
-        calculateFloodRisk();
-        calculateEarthquakeRisk();
+    
         int sumOfRisks = calculateCrimeRisk() + calculateFloodRisk() + calculateEarthquakeRisk();
         return sumOfRisks;
 
